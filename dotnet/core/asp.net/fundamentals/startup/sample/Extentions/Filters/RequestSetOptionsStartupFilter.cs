@@ -13,7 +13,7 @@ namespace sample.Extentions.Filters
             {
                 builder.UseMiddleware<RequestSetOptionsMiddleware>();
                 next(builder);
-            }
+            };
         }
     }
 }
