@@ -1,0 +1,11 @@
+E:\workspace\practice\design patterns\SimpleFactory\Operations\bin\Debug\netcoreapp2.1\Operations.deps.json
+E:\workspace\practice\design patterns\SimpleFactory\Operations\bin\Debug\netcoreapp2.1\Operations.runtimeconfig.json
+E:\workspace\practice\design patterns\SimpleFactory\Operations\bin\Debug\netcoreapp2.1\Operations.runtimeconfig.dev.json
+E:\workspace\practice\design patterns\SimpleFactory\Operations\bin\Debug\netcoreapp2.1\Operations.dll
+E:\workspace\practice\design patterns\SimpleFactory\Operations\bin\Debug\netcoreapp2.1\Operations.pdb
+E:\workspace\practice\design patterns\SimpleFactory\Operations\obj\Debug\netcoreapp2.1\Operations.csprojAssemblyReference.cache
+E:\workspace\practice\design patterns\SimpleFactory\Operations\obj\Debug\netcoreapp2.1\Operations.csproj.CoreCompileInputs.cache
+E:\workspace\practice\design patterns\SimpleFactory\Operations\obj\Debug\netcoreapp2.1\Operations.AssemblyInfoInputs.cache
+E:\workspace\practice\design patterns\SimpleFactory\Operations\obj\Debug\netcoreapp2.1\Operations.AssemblyInfo.cs
+E:\workspace\practice\design patterns\SimpleFactory\Operations\obj\Debug\netcoreapp2.1\Operations.dll
+E:\workspace\practice\design patterns\SimpleFactory\Operations\obj\Debug\netcoreapp2.1\Operations.pdb
