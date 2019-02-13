@@ -12,21 +12,21 @@ namespace Operations
             string operate = "";
             try
             {
-                Console.WriteLine("请输入第一个数!");
+                Console.WriteLine("Please enter the first number!");
                 numberOne = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("请输入第二个数!");
+                Console.WriteLine("Please enter the second number!");
                 numberTwo = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("请输入运算符!");
+                Console.WriteLine("Please enter an operator!");
                 operate = Console.ReadLine();
             }
             catch (Exception ex)
             {
-                Console.WriteLine("您输入的数字有问题!");
+                Console.WriteLine("There is a problem with the number you entered!");
                 Console.WriteLine(ex.Message);
             }
             IOperation operation = OperationFactory.CreateOperation(operate);
             double result = operation.GetResult(numberOne, numberTwo);
-            Console.WriteLine("结果是"+result);
+            Console.WriteLine("The Result is "+result);
             Console.ReadKey();
         }
     }

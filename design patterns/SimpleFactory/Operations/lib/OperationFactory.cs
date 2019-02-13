@@ -23,6 +23,8 @@ namespace Operations.lib
                 case "/":
                     operation = new OperationDiv();
                     break;
+                default:
+                    throw new Exception("No such specified operator");
             }
             return operation;
         }
