@@ -1,0 +1,14 @@
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.2\HelloWorld.deps.json
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.2\HelloWorld.runtimeconfig.json
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.2\HelloWorld.runtimeconfig.dev.json
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.2\HelloWorld.dll
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.2\HelloWorld.pdb
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.2\HelloWorld.csprojAssemblyReference.cache
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.2\HelloWorld.csproj.CoreCompileInputs.cache
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.2\HelloWorld.RazorAssemblyInfo.cache
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.2\HelloWorld.RazorAssemblyInfo.cs
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.2\HelloWorld.AssemblyInfoInputs.cache
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.2\HelloWorld.AssemblyInfo.cs
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.2\HelloWorld.RazorTargetAssemblyInfo.cache
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.2\HelloWorld.dll
+e:\workspace\practice\dotnet\core\asp.net\simple\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.2\HelloWorld.pdb
