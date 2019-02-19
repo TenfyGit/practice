@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "e:\\workspace\\practice\\dotnet\\core\\asp.net\\simple\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  }
+}
