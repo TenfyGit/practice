@@ -33,3 +33,4 @@ E:\workspace\practice\dotnet\core\asp.net\simple\AspNetCoreTodo\AspNetCoreTodo\o
 E:\workspace\practice\dotnet\core\asp.net\simple\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\netcoreapp2.2\AspNetCoreTodo.csproj.CopyComplete
 E:\workspace\practice\dotnet\core\asp.net\simple\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\netcoreapp2.2\Razor\Views\Todo\Index.g.cshtml.cs
 E:\workspace\practice\dotnet\core\asp.net\simple\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\netcoreapp2.2\Razor\Views\Todo\AddItemPartial.g.cshtml.cs
+E:\workspace\practice\dotnet\core\asp.net\simple\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\netcoreapp2.2\Razor\Views\ManageUsers\Index.g.cshtml.cs
