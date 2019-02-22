@@ -1,0 +1,22 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery_ajax_extention.js"></script>
+    <script src="~/Scripts/Home/Index.js"></script>
+    <script type="text/javascript">
+        //打开页面的时候保存票据信息
+        var UserName = '@ViewBag.UserName';
+        var Ticket = '@ViewBag.Ticket';
+    </script>
+</head>
+<body>
+    <div>当前登录用户：'@ViewBag.UserName'</div>
+    测试结果：<div id="div_test">
+
+    </div>
+</body>
+</html>
