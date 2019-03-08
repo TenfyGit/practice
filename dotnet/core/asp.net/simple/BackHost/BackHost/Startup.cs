@@ -1,19 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Swashbuckle.AspNetCore.Swagger;
 
-namespace SwaggerTest
+namespace BackHost
 {
     public class Startup
     {
@@ -27,14 +24,15 @@ namespace SwaggerTest
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddSwaggerGen(s => 
+            services.Configure<CookiePolicyOptions>(options =>
             {
-                s.SwaggerDoc("v1",new Info{Title="My API",Version="v1"});
-                var basePath = Path.GetDirectoryName(typeof(Program).Assembly.Location);
-                var xmlPath = Path.Combine(basePath,"SwaggerTest.xml");
-                s.IncludeXmlComments(xmlPath);
+                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,19 +44,20 @@ namespace SwaggerTest
             }
             else
             {
+                app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
-            //启用中间件服务生成Swagger作为JSON终结点
-            app.UseSwagger();
-            //启用中间件服务对swagger-ui，指定Swagger JSON终结点
-            app.UseSwaggerUI(s =>
+            app.UseStaticFiles();
+            app.UseCookiePolicy();
+
+            app.UseMvc(routes =>
             {
-                s.SwaggerEndpoint("/swagger/v1/swagger.json","My API V1");
-                s.RoutePrefix = string.Empty;
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

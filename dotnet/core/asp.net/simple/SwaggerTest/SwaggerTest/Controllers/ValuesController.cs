@@ -10,14 +10,26 @@ namespace SwaggerTest.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
+
+        /// <summary>
+        /// 这是一个api方法的注释
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
+        /// <summary>
+        /// 这是一个带参数的get请求
+        /// </summary>
+        /// <remarks>
+        /// 例子:
+        /// Get api/Values/1
+        /// </remarks>
+        /// <param name="id">主键</param>
+        /// <returns>测试字符串</returns> 
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
