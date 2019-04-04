@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "Introduct";
+}
+<p id="demo">JavaScript 能改变 HTML 元素的样式。</p>
+<script>
+    function changeImage()
+    {
+        element = document.getElementById('myimage');
+        if(element.src.match("bulbon"))
+        {
+            element.src = "/images/pic_bulboff.gif";
+        }
+        else
+        {
+            element.src = "/images/pic_bulbon.gif";
+        }
+    }
+    function myFunction()
+    {
+        
+        x = document.getElementById("demo");
+        x.style.color="#ff0000";
+    }
+</script>
+<button type="button" onclick="alert('欢迎!')">点我!</button>
+<img id = "myimage" onclick="changeImage()" src="/images/pic_bulboff.gif" width="100" height="180">
+<p>点击灯泡就可以打开或关闭这盏灯</p>
+<br/>
+
+<button type="button" onclick="myFunction()">点击这里，改变样式</button>
+<script>
+    document.write("<h1>JavaScript 基础教程</h1>");
+    document.write("<p id='demo'>这是一个段落");
+</script>
