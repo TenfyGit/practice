@@ -1,0 +1,13 @@
+﻿{
+  
+  "profiles": {
+    "Blog.IdentityServer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:50509",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
