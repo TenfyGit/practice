@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29728.190
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcCookieAuthSample", "MvcCookieAuthSample\MvcCookieAuthSample.csproj", "{244C7EED-AA60-4F3F-973B-692F1AA875D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcCookieAuthSample", "MvcCookieAuthSample\MvcCookieAuthSample.csproj", "{CE80BD4A-60C4-4625-B8B3-DC2E33FFB66D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{244C7EED-AA60-4F3F-973B-692F1AA875D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{244C7EED-AA60-4F3F-973B-692F1AA875D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{244C7EED-AA60-4F3F-973B-692F1AA875D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{244C7EED-AA60-4F3F-973B-692F1AA875D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE80BD4A-60C4-4625-B8B3-DC2E33FFB66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE80BD4A-60C4-4625-B8B3-DC2E33FFB66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE80BD4A-60C4-4625-B8B3-DC2E33FFB66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE80BD4A-60C4-4625-B8B3-DC2E33FFB66D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4CF60129-2E74-422C-90DC-A2C5852D56E9}
+		SolutionGuid = {6EFF93AE-481A-4AF5-93C5-2176D4FE7D10}
 	EndGlobalSection
 EndGlobal

@@ -41,6 +41,7 @@ namespace IdentityServerCenter
                     name: "default", 
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            
         }
     }
 }

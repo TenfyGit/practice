@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Core.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Blog.Core.Api.Controllers.LoginController.GetJwtStr(System.String,System.String)">
+            <summary>
+            获取JWT的方法1
+            </summary>
+            <param name="name"></param>
+            <param name="pass"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.Core.Api.Controllers.WeatherForecastController">
+            <summary>
+            天气管理
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Api.Controllers.WeatherForecastController.Get">
+            <summary>
+            获取接口数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Api.Controllers.WeatherForecastController.Post(Blog.Core.Model.Love)">
+            <summary>
+            post
+            </summary>
+            <param name="love">model实体类参数</param>
+        </member>
+    </members>
+</doc>
